@@ -1,7 +1,7 @@
 import { ItemNames } from ".";
-import { ItemProps } from "./ItemProps";
-import { IUpdateCalculator, AgedBrieUpdateCalculator, BackStageUpdateCalculator, SulfurasUpdateCalculator, NormalUpdateCalculator } from "./classStyle";
-import { agedBrieUpdate, backStageUpdate, sulfurasUpdate, normalUpdate } from "./functionStyle";
+import { ItemProps } from "./core/ItemProps";
+import { IUpdateCalculator, AgedBrieUpdateCalculator, BackStageUpdateCalculator, SulfurasUpdateCalculator, NormalUpdateCalculator } from "./core/classStyle";
+import { agedBrieUpdate, backStageUpdate, sulfurasUpdate, normalUpdate } from "./core/functionStyle";
 
 export class Item implements ItemProps {
     name: string;

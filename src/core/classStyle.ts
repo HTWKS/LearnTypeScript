@@ -1,6 +1,5 @@
 import { ItemProps } from "./ItemProps";
 
-
 export interface IUpdateCalculator {
     getUpdatedQuality(): number;
     getUpdatedSellIn(): number;
